@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./switch-case.component.css']
 })
 export class SwitchCaseComponent {
-
+  title= 'switch case module';
+  color='pink'
 }

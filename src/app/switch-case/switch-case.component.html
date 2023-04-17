@@ -1,1 +1,11 @@
 <p>switch-case works!</p>
+<h1>{{title}}</h1>
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color: red;" >  Red Color</h1>
+    <h1 *ngSwitchCase="'green'" style="color: green;" >  green Color</h1>
+    <h1 *ngSwitchCase="'blue'" style="color: blue;" >  blue Color</h1>
+    <h1 *ngSwitchCase="'orange'" style="color: orange;" >  orange Color</h1>
+    <h1 *ngSwitchCase="'pink'" style="color: pink;" >  pink Color</h1>
+    <!-- default case -->
+    <h1 *ngSwitchDefault > Unknown color</h1>
+</div>
