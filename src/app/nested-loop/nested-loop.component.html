@@ -1,0 +1,12 @@
+<p>{{title}}</p>
+
+<ul *ngFor="let user of users">
+    <li> {{user.name}} </li>
+    <li> {{user.phn}} </li>
+    <!-- <li> {{user.socialAcounts}} </li> -->
+    <ul *ngFor="let account of user.socialAcounts">
+        <li>
+            {{account}}
+        </li>
+    </ul>
+</ul>
