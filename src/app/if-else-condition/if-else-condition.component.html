@@ -1,5 +1,13 @@
 <p>if-else-condition works!</p>
 <h1>{{title}}</h1>
-<h1 *ngIf="show">
+<h1 *ngIf="show;then ifblock else elseblock">
     Entered in if condition of angular
 </h1>
+<ng-template #ifblock>
+    <h1>if condition of angular</h1>
+</ng-template>
+<ng-template #elseblock> 
+    <h1>Else condition of angular</h1>
+</ng-template>
+
+<!-- to use else condition, we need to use ng-template and and give id of ng-template to else condition -->
