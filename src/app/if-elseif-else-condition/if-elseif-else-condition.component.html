@@ -1,1 +1,9 @@
 <p>if-elseif-else-condition works!</p>
+<h1>{{title}}</h1>
+<ng-template [ngIf] = 'color === "red" '>
+    <h1 style="color: red;">RED</h1>
+</ng-template>
+<ng-template [ngIf] = 'color === "green"'>
+    <h1 style="color: green;">GREEN</h1>
+</ng-template>
+<!-- there is no such thing like else-if in angular , we have to use multiple if with conditions -->

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./if-elseif-else-condition.component.css']
 })
 export class IfElseifElseConditionComponent {
-
+  title='multiple if else condition';
+  color='green'
 }
