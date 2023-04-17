@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./style-binding.component.css']
 })
 export class StyleBindingComponent {
-  title='style binding'
+  title='style binding';
+  color='red';
+  bgColor='green';
+
+
+  updatecolor(){
+    this.color = 'blue'
+    this.bgColor='orange'
+  }
 }
