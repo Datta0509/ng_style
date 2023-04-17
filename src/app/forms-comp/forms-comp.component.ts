@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { FormControl,FormGroup } from '@angular/forms'; '@angular/core';
 @Component({
   selector: 'app-forms-comp',
   templateUrl: './forms-comp.component.html',
@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class FormsCompComponent {
   title='angular forms';
-  
+  loginForm = new FormGroup({
+    name: new FormControl(''),
+    password: new FormControl('')
+  })
+
+  loginUser(){
+    console.warn(this.loginForm.value);
+    
+  }
 }

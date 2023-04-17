@@ -12,6 +12,7 @@ import { NestedLoopComponent } from './nested-loop/nested-loop.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { HeaderComponent } from './header/header.component';
 import { FormsCompComponent } from './forms-comp/forms-comp.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -27,12 +28,14 @@ import { FormsCompComponent } from './forms-comp/forms-comp.component';
     StyleBindingComponent,
     HeaderComponent,
     FormsCompComponent,
+   
     
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,7 +6,7 @@
 <!-- <app-nested-loop></app-nested-loop> -->
 <!-- <app-style-binding></app-style-binding> -->
 <!-- <app-header></app-header> -->
-<app-forms-comp></app-forms-comp>
+<!-- <app-forms-comp></app-forms-comp> -->
 <!-- below line is example of interpolation -->
 <!-- <input type="text" name="username" value="{{name}}"  disabled='{{disabled}}' />  -->
 <!-- interpolation only accepts string or numerical value , it doesn't accept boolean value -->
@@ -16,3 +16,7 @@
 <!-- <input type="text" name="user" [value]=name [disabled]=disabled /> -->
 
 
+
+<!-- for redEl directive -->
+<h1 *ngIf="true"> {{title}} </h1>
+<h1 appRedEl> {{title}} </h1>

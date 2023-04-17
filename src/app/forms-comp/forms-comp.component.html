@@ -1,1 +1,10 @@
 <p> {{title}} !</p>
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <input type="text" name="name" placeholder="Enter Name" formControlName="name" />
+    <br>
+    <br>
+    <input type="password" name="password" placeholder="Enter Password" formControlName="password" />
+    <br>
+    <br>
+    <button>SUBMIT</button>
+</form>
