@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./if-else-condition.component.css']
 })
 export class IfElseConditionComponent {
-
+  title = 'if else';
+  show = false
 }
