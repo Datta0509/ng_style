@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { IfElseConditionComponent } from './if-else-condition/if-else-condition.component';
+import { IfElseifElseConditionComponent } from './if-elseif-else-condition/if-elseif-else-condition.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    IfElseConditionComponent
+    IfElseConditionComponent,
+    IfElseifElseConditionComponent
 
   ],
   imports: [

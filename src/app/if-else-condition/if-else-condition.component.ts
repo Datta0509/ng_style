@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class IfElseConditionComponent {
   title = 'if else';
-  show = false
+  show = 'abc'
 }
