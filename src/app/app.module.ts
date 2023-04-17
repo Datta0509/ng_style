@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { IfElseConditionComponent } from './if-else-condition/if-else-condition.component';
 import { IfElseifElseConditionComponent } from './if-elseif-else-condition/if-elseif-else-condition.component';
+import { SwitchCaseComponent } from './switch-case/switch-case.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { IfElseifElseConditionComponent } from './if-elseif-else-condition/if-el
     AppComponent,
     LoginComponent,
     IfElseConditionComponent,
-    IfElseifElseConditionComponent
+    IfElseifElseConditionComponent,
+    SwitchCaseComponent
 
   ],
   imports: [
