@@ -11,6 +11,8 @@ import { LoopComponent } from './loop/loop.component';
 import { NestedLoopComponent } from './nested-loop/nested-loop.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
 import { HeaderComponent } from './header/header.component';
+import { FormsCompComponent } from './forms-comp/forms-comp.component';
+
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { HeaderComponent } from './header/header.component';
     LoopComponent,
     NestedLoopComponent,
     StyleBindingComponent,
-    HeaderComponent
+    HeaderComponent,
+    FormsCompComponent,
+    
 
   ],
   imports: [

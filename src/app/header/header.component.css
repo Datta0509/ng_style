@@ -1,0 +1,28 @@
+nav img{
+    width: 100px;
+}
+
+nav{
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+}
+
+ul{
+    float:right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white ;
+    cursor: pointer;
+}
+
+nav li{
+    list-style-type: none;
+}
