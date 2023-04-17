@@ -9,6 +9,7 @@ import { IfElseifElseConditionComponent } from './if-elseif-else-condition/if-el
 import { SwitchCaseComponent } from './switch-case/switch-case.component';
 import { LoopComponent } from './loop/loop.component';
 import { NestedLoopComponent } from './nested-loop/nested-loop.component';
+import { StyleBindingComponent } from './style-binding/style-binding.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { NestedLoopComponent } from './nested-loop/nested-loop.component';
     IfElseifElseConditionComponent,
     SwitchCaseComponent,
     LoopComponent,
-    NestedLoopComponent
+    NestedLoopComponent,
+    StyleBindingComponent
 
   ],
   imports: [
